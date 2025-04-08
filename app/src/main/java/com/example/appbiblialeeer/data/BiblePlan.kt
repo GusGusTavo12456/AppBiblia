@@ -1,0 +1,35 @@
+package com.example.appbiblialeeer.data
+import com.example.appbiblialeeer.data.DailyReading
+
+val biblePlan = listOf(
+    DailyReading(1, listOf("Mateo 25:1-30", "Números 30-31", "Job 1")),
+    DailyReading(2, listOf("Mateo 25:31-46", "Números 32-34", "Job 2")),
+    DailyReading(3, listOf("Mateo 26:1-25", "Números 35-36", "Job 3")),
+    DailyReading(4, listOf("Mateo 26:26-46", "Deuteronomio 1-2", "Job 4")),
+    DailyReading(5, listOf("Mateo 26:47-75", "Deuteronomio 3-4", "Job 5")),
+    DailyReading(6, listOf("Mateo 27:1-31", "Deuteronomio 5-6", "Job 6")),
+    DailyReading(7, listOf("Mateo 27:32-66", "Deuteronomio 7-8", "Job 7")),
+    DailyReading(8, listOf("Mateo 28", "Deuteronomio 9-10", "Job 8")),
+    DailyReading(9, listOf("Hechos 1", "Deuteronomio 11-12", "Job 9")),
+    DailyReading(10, listOf("Hechos 2:1-13", "Deuteronomio 13-14", "Job 10")),
+    DailyReading(11, listOf("Hechos 2:14-47", "Deuteronomio 15-16", "Job 11")),
+    DailyReading(12, listOf("Hechos 3", "Deuteronomio 17-18", "Job 12")),
+    DailyReading(13, listOf("Hechos 4:1-22", "Deuteronomio 19-20", "Job 13")),
+    DailyReading(14, listOf("Hechos 4:23-37", "Deuteronomio 21-22", "Job 14")),
+    DailyReading(15, listOf("Hechos 5:1-16", "Deuteronomio 23-24", "Job 15")),
+    DailyReading(16, listOf("Hechos 5:17-42", "Deuteronomio 25-27", "Job 16")),
+    DailyReading(17, listOf("Hechos 6", "Deuteronomio 28", "Job 17")),
+    DailyReading(18, listOf("Hechos 7:1-22", "Deuteronomio 29-30", "Job 18")),
+    DailyReading(19, listOf("Hechos 7:23-8:1", "Deuteronomio 31-32", "Job 19")),
+    DailyReading(20, listOf("Hechos 8:1-25", "Deuteronomio 33-34", "Job 20")),
+    DailyReading(21, listOf("Hechos 8:26-40", "Josué 1-2", "Job 21")),
+    DailyReading(22, listOf("Hechos 9:1-25", "Josué 3:1-5:1", "Job 22")),
+    DailyReading(23, listOf("Hechos 9:26-43", "Josué 5:2-6:27", "Job 23")),
+    DailyReading(24, listOf("Hechos 10:1-33", "Josué 7-8", "Job 24")),
+    DailyReading(25, listOf("Hechos 10:34-48", "Josué 9-10", "Job 25")),
+    DailyReading(26, listOf("Hechos 11:1-18", "Josué 11-12", "Job 26")),
+    DailyReading(27, listOf("Hechos 11:19-30", "Josué 13-14", "Job 27")),
+    DailyReading(28, listOf("Hechos 12", "Josué 15-17", "Job 28")),
+    DailyReading(29, listOf("Hechos 13:1-25", "Josué 18-19", "Job 29")),
+    DailyReading(30, listOf("Hechos 13:26-52", "Josué 20-21", "Job 30"))
+)
